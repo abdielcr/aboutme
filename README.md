@@ -1,3 +1,3 @@
 About Profile
 
-<img src="http://abdiels.site/firma/telnorLogin.png" />
+<img src="http://abdiels.site/aboutAbdiel.png" />
