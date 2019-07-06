@@ -1,49 +1,65 @@
-
+/* ▲ Abdiel Carrasco ▲ Created on 15-04-2014 Modified on 06-07-2019 CSS */
+/*BackGround Image and parameters*/
 body {
-        text-align: center;
-        background: url("img/ciudad.jpg");; 
-        color:white;
-        font-family: Helvetica;
-        background-size: cover;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-     }
-
-input {
-       border: 0;
-       padding: 12px;
-       font-size: 18px;
-  }
-input[type="submit"] {
-       background: #58b9fc;
-       color: black;
-  }
+     text-align: center;
+     background: url("img/Tijuana.jpg");
+     ;
+     color: white;
+     font-family: Helvetica;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-color: #000;
+}
+ #email {
+     font-size: 40px;
+     color: #FFF;
+}
+/*Box text*/
+ .row {
+     text-align: center;
+}
+ .container {
+     background-color: #000;
+    /* IE(5-9) proprietary property */
+     filter: alpha(opacity=10);
+    /* IE9 and all the other browsers */
+     opacity: .8;
+}
+/*Profile Image*/
  img {
-       border-bottom-right-radius: 10% 5%;
-       border-top-left-radius: 10% 5%;
-  }   
-
-p {
-       font-size: 24px;
-       color: white; text-shadow: black 0.1em 0.0em 0.3em;
-  }
-ul,li{
-
-       display: inline-block;
-       margin-left: 20px;
-
-     }
-
- li:hover{
-        -webkit-transform:scale(1.5);
-        
-       
-  }
-
-article,#social{
-       background-color: white;
-       opacity: 0.5;
-       margin-top: 65px;
-       
-  }     
+     border-radius: 50%;
+     border: 3px solid #FFF;
+}
+/*Description Text*/
+ p {
+     padding-top: 1em;
+     padding-left: 1em;
+     padding-right: 1em;
+     font-size: 24px;
+     color: white;
+     text-shadow: black 0.1em 0.0em 0.3em;
+     font-family: 'Open Sans Condensed', sans-serif;
+}
+/*Social baackGround */
+ article, #social {
+     background-color: white;
+     opacity: 0.5;
+}
+/*Display Inline Icons*/
+ ul, li {
+     display: inline-block;
+     margin-left: 20px;
+}
+/*Animation whe Hover*/
+ li:hover {
+     -webkit-transform: scale(1.5);
+}
+ h1 {
+     font-family: 'Chakra Petch', sans-serif;
+}
+/*Pisition footer social an width*/
+ footer {
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+}
