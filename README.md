@@ -2,6 +2,15 @@ aboutme
 =======
 
 
-Prueba read/write 11/11/18
+Mod - 13-07-19
 
-	Pagina html y css con un sencillo diseño (Acerca de mi)
+	About me Responsive web page
+
+	phone resolution:
+
+	<img src="http://abdiels.site/img/phone.png" height="150" width="150">
+
+	Desktop resolution:
+
+	<img src="http://abdiels.site/img/desktop.png" height="150" width="150">
+
