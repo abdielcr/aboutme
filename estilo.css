@@ -1,65 +1,168 @@
 /* ▲ Abdiel Carrasco ▲ Created on 15-04-2014 Modified on 06-07-2019 CSS */
+
+
 /*BackGround Image and parameters*/
+
 body {
-     text-align: center;
-     background: url("img/Tijuana.jpg");
-     ;
-     color: white;
-     font-family: Helvetica;
-     background-repeat: no-repeat;
-     background-attachment: fixed;
-     background-color: #000;
+	text-align: center;
+	background: url("img/Tijuana.jpg");
+	;
+	color: white;
+	font-family: Helvetica;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #000;
 }
- #email {
-     font-size: 40px;
-     color: #FFF;
+
+#email {
+	color: #FFF;
 }
+
+
 /*Box text*/
- .row {
-     text-align: center;
+
+.row {
+	text-align: center;
 }
- .container {
-     background-color: #000;
-    /* IE(5-9) proprietary property */
-     filter: alpha(opacity=10);
-    /* IE9 and all the other browsers */
-     opacity: .8;
+
+.container {
+	background-color: #000;
+	/* IE(5-9) proprietary property */
+	filter: alpha(opacity=10);
+	/* IE9 and all the other browsers */
+	opacity: .8;
 }
+
+
 /*Profile Image*/
- img {
-     border-radius: 50%;
-     border: 3px solid #FFF;
+
+img {
+	margin-top: 20px;
+	border-radius: 50%;
+	border: 3px solid #FFF;
 }
+
+
 /*Description Text*/
- p {
-     padding-top: 1em;
-     padding-left: 1em;
-     padding-right: 1em;
-     font-size: 24px;
-     color: white;
-     text-shadow: black 0.1em 0.0em 0.3em;
-     font-family: 'Open Sans Condensed', sans-serif;
+
+p {
+	padding-top: 15px;
+	padding-left: 1em;
+	padding-right: 1em;
+	color: white;
+	text-shadow: black 0.1em 0.0em 0.3em;
+	font-family: 'Open Sans Condensed', sans-serif;
 }
+
+
 /*Social baackGround */
- article, #social {
-     background-color: white;
-     opacity: 0.5;
+
+article,
+#social {
+	background-color: white;
+	opacity: 0.5;
 }
+
+
 /*Display Inline Icons*/
- ul, li {
-     display: inline-block;
-     margin-left: 20px;
+
+ul,
+li {
+	display: inline-block;
+	margin-left: 10px;
 }
+
+
 /*Animation whe Hover*/
- li:hover {
-     -webkit-transform: scale(1.5);
+
+li:hover {
+	-webkit-transform: scale(1.5);
 }
- h1 {
-     font-family: 'Chakra Petch', sans-serif;
+
+div.name {
+	font-family: 'Chakra Petch', sans-serif;
 }
+
+
 /*Pisition footer social an width*/
- footer {
-     position: fixed;
-     bottom: 0;
-     width: 100%;
+
+footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+/* Up 604 */
+@media screen and (min-width: 601px) {
+	div.name {
+		font-size: 80px;
+	}
+	div.img img {
+		width: 150px;
+		height: 150px;
+	}
+	div.soft {
+		font-size: 30px;
+	}
+	p.des {
+		font-size: 30px;
+	}
+	p.join {
+		font-size: 25px;
+	}
+	footer.cont article,
+	#social {
+		font-size: 30px;
+		height: 110px;
+	}
+}
+/* 360*640  */
+@media screen and (max-width: 600px) {
+	div.name {
+		font-size: 18px;
+	}
+	div.img img {
+		width: 70px;
+		height: 70px;
+	}
+	div.soft {
+		font-size: 13px;
+	}
+	p.des {
+		font-size: 13px;
+	}
+	p.join {
+		font-size: 13px;
+	}
+	footer.cont article,
+	#social {
+		font-size: 1px;
+		height: 100px;
+    }
+    
+}
+
+/* 320*568 */
+@media screen and (max-width: 320px) {
+	div.name {
+		font-size: 15px;
+	}
+	div.img img {
+		width: 45px;
+		height: 45px;
+	}
+	div.soft {
+		font-size: 10px;
+	}
+	p.des {
+		font-size: 10px;
+	}
+	p.join {
+		font-size: 10px;
+	}
+	footer.cont article,
+	#social {
+		font-size: 1px;
+		height: 100px;
+    }
+    
 }
